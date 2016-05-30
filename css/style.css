@@ -1,3 +1,12 @@
+body {
+    width: 80%;
+    margin: 10 auto;
+}
+
+/* Nav bar will take up 85% of the body */
+nav {
+    width: 85%;
+}
 .nav ul {
     list-style-type: none;
     margin: 20;
@@ -16,27 +25,27 @@
     color: #666;
 }
 
-//Target just the anchors in nav.
+/* Target just the anchors in nav. */
 .nav a {
     text-decoration: none;
     display: block;
     transition: .3s background-color;
 }
 
-//Add a feature that changes the color and transparency of the link we are hovering over.
+/* Add a feature that changes the color and transparency of the link we are hovering over. */
 .nav a:hover {
     background-color: #005f5f;
 }
 
-//Changes the background color of the link/tab that the user has currently selected.
+/* Changes the background color of the link/tab that the user has currently selected. */
 .nav a.active {
   background-color: #fff;
   color: #444;
   cursor: default;
 }
 
-//If on a screen bigger than 600px, nav bar will be horizontal.
-//Otherwise it'll be vertical.
+/* If on a screen bigger than 600px, nav bar will be horizontal.
+Otherwise it'll be vertical. */
   @media screen and (min-width: 600px) {
     .nav li {
       display: inline-block;
