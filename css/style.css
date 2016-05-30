@@ -20,28 +20,26 @@
 .nav a {
     text-decoration: none;
     display: block;
+    transition: .3s background-color;
 }
 
 //Add a feature that changes the color and transparency of the link we are hovering over.
 .nav a:hover {
     background-color: #005f5f;
-    transition: .3s background-color;
 }
 
 //Changes the background color of the link/tab that the user has currently selected.
-.nav .active {
-    background-color: #4CAF50;
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
 }
 
 //If on a screen bigger than 600px, nav bar will be horizontal.
 //Otherwise it'll be vertical.
   @media screen and (min-width: 600px) {
     .nav li {
-      width: 120px;
-      border-bottom: none;
-      height: 50px;
-      line-height: 50px;
-      font-size: 1.4em;
       display: inline-block;
+      margin-right: -4px;
     }
   }
