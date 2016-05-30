@@ -19,7 +19,7 @@
 //Target just the anchors in nav.
 nav a {
     text-decoration: none;
-    color: #9021;
+    display: block;
 }
 
 //Add a feature that changes the color and transparency of the link we are hovering over.
