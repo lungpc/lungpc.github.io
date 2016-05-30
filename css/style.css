@@ -1,6 +1,7 @@
 body {
     width: 100%;
     height: 100;
+    margin: 0 auto;
     background-color: #F8F8F8;
 }
 
@@ -9,9 +10,6 @@ body {
     width: 90%;
 }
 
-html {
-    margin: auto;
-}
 
 /* Nav bar will take up 85% of the body */
 nav {
