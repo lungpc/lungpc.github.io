@@ -52,7 +52,6 @@ nav a:hover {
 
 /* Changes the background color of the link/tab that the user has currently selected. */
 nav a.active {
-  background-color: #fff;
   color: #444;
   cursor: default;
 }
