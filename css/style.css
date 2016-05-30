@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(250, 250, 250);
+    background-color: #E8E8E8;
 }
 
 #container {
@@ -8,7 +8,7 @@ body {
     border: 1px solid gray;
     margin: 0 auto;
     /* medium grey background */
-    background-color: #E0E0E0;
+    background-color: rgb(250, 250, 250);
 }
 
 
