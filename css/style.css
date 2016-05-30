@@ -33,7 +33,7 @@ nav li {
     line-height: 40px;
     display: inline;
     height: 40px;
-    color: #666;
+    color: #5858;
 }
 
 /* Target just the anchors in nav. */
@@ -53,6 +53,7 @@ nav a:hover {
 /* Changes the background color of the link/tab that the user has currently selected. */
 nav a.active {
   color: #444;
+  background-color: #33CCCC;
   cursor: default;
 }
 
