@@ -7,7 +7,7 @@ body {
 nav {
     width: 85%;
 }
-.nav ul {
+nav ul {
     list-style-type: none;
     margin: 20;
     padding: 0;
@@ -16,7 +16,7 @@ nav {
     background-color: #f3f3f3;
 }
 
-.nav li {
+nav li {
     font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
     line-height: 40px;
@@ -26,19 +26,19 @@ nav {
 }
 
 /* Target just the anchors in nav. */
-.nav a {
+nav a {
     text-decoration: none;
     display: block;
     transition: .3s background-color;
 }
 
 /* Add a feature that changes the color and transparency of the link we are hovering over. */
-.nav a:hover {
+nav a:hover {
     background-color: #005f5f;
 }
 
 /* Changes the background color of the link/tab that the user has currently selected. */
-.nav a.active {
+nav a.active {
   background-color: #fff;
   color: #444;
   cursor: default;
@@ -47,7 +47,7 @@ nav {
 /* If on a screen bigger than 600px, nav bar will be horizontal.
 Otherwise it'll be vertical. */
   @media screen and (min-width: 600px) {
-    .nav li {
+    nav li {
       display: inline-block;
       margin-right: -4px;
     }
