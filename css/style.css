@@ -32,3 +32,15 @@ nav a:hover {
 .active {
     background-color: #4CAF50;
 }
+
+//If on a screen bigger than 600px, nav bar will be horizontal.
+//Otherwise it'll be vertical.
+  @media screen and (min-width: 600px) {
+    .nav li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+    }
+  }
