@@ -1,8 +1,12 @@
+body {
+    background-color: #0000FF;
+}
 
 #container {
     height: 80%;
     width: 80%;
     margin: 0 auto;
+    /* medium grey background */
     background-color: #E0E0E0;
 }
 
