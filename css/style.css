@@ -1,11 +1,11 @@
-container {
-    height: 90%;
-    width: 90%;
+
+#container {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    background-color: #E0E0E0;
 }
 
-html {
-    margin: auto;
-}
 
 /* Nav bar will take up 85% of the body */
 nav {
@@ -15,6 +15,7 @@ nav ul {
     list-style-type: none;
     margin: 20;
     padding: 0;
+    display: inline-block;
     text-align: left;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
@@ -48,11 +49,3 @@ nav a.active {
   cursor: default;
 }
 
-/* If on a screen bigger than 600px, nav bar will be horizontal.
-Otherwise it'll be vertical. */
-  @media screen and (min-width: 600px) {
-    nav li {
-      float: left;
-      width: 23%;
-    }
-  }
