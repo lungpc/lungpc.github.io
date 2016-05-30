@@ -24,7 +24,7 @@ nav li {
     font-size: 1.2em;
     line-height: 40px;
     height: 40px;
-    display: inline;
+    display: inline-block;
     color: #666;
 }
 
@@ -47,11 +47,3 @@ nav a.active {
   cursor: default;
 }
 
-/* If on a screen bigger than 600px, nav bar will be horizontal.
-Otherwise it'll be vertical. */
-  @media screen and (min-width: 600px) {
-    nav li {
-      float: left;
-      width: 23%;
-    }
-  }
