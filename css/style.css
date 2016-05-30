@@ -2,6 +2,7 @@
 #container {
     height: 80%;
     width: 80%;
+    margin: 0 auto;
     background-color: #E0E0E0;
 }
 
