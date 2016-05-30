@@ -2,9 +2,16 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
 }
 
-li a {
-    display: block;
-    width: 60px;
+li {
+    display: inline;
+    color: #666;
+}
+
+//Changes the background color of the link/tab that the user has currently selected.
+.active {
+    background-color: #4CAF50;
 }
