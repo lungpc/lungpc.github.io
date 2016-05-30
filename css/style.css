@@ -52,7 +52,7 @@ nav a.active {
 Otherwise it'll be vertical. */
   @media screen and (min-width: 600px) {
     nav li {
-      display: float;
+      float: left;
       width: 23%;
     }
   }
