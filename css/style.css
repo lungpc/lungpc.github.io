@@ -54,6 +54,7 @@ nav a:hover {
 nav a.active {
   color: #444;
   background-color: #33CCCC;
+  font-weight: bold;
   cursor: default;
 }
 
