@@ -48,7 +48,6 @@ nav a {
 /* Add a feature that changes the color and transparency of the link we are hovering over. */
 nav a:hover {
     color: black;
-    background-color: none;
 }
 
 /* Changes the background color of the link/tab that the user has currently selected. */
@@ -58,8 +57,8 @@ nav a.active {
   cursor: default;
 }
 
-
+/* When cursor hovers over a link that is not active, the font will be change colors. */
 nav a:hover:not(.active) {
-    background-color: #111;
+    color: black;
 }
 
