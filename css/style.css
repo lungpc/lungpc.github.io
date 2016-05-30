@@ -1,12 +1,18 @@
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
 }
 
-nav {
+nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
     display: inline;
     color: #666;
 }
