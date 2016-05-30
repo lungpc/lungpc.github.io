@@ -1,6 +1,15 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
-    width: 100%;
-    margin: 10 auto;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 /* Nav bar will take up 85% of the body */
