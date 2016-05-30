@@ -1,7 +1,7 @@
 .nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 20;
+    padding: 0;
     text-align: left;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
@@ -11,6 +11,7 @@
     font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
     line-height: 40px;
+    padding: 40;
     height: 40px;
     display: inline;
     color: #666;
