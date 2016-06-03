@@ -17,14 +17,6 @@ nav a:hover {
     color: black;
 }
 
-/* Changes the background color of the link/tab that the user has currently selected. */
-nav a.active {
-  color: #444;
-  background-color: #33CCCC;
-  font-weight: bold;
-  cursor: default;
-}
-
 /* When cursor hovers over a link that is not active, the font will be change colors. */
 nav a:hover:not(.active) {
     color: black;
