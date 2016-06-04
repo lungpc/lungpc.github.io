@@ -12,18 +12,24 @@ body {
     background-color: rgb(250, 250, 250);
 }
 
-/* Add a feature that changes the color and transparency of the link we are hovering over. */
-nav a:hover {
-    color: black;
-}
-
 /* When cursor hovers over a link that is not active, the font will be change colors. */
 nav a:hover:not(.active) {
     color: black;
 }
 
-nav ul, footer ul { font-size: 1em; font-family: 'Oswald', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+
+a { text-decoration: none; color: #999; }
+a:hover { color: black; }
+
+p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
+
+h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+h1 { font-size: 3em;  }
+h2 { font-size: 2.7em; }
+h3 { font-size: 2.3em; }
+h4 { font-size: 1.9em; }
 
