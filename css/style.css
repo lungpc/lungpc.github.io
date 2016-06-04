@@ -37,7 +37,7 @@ footer {
 
 a { 
     text-decoration: none; 
-    color: #999; 
+    color: slategray; 
 }
 
 a:hover { color: black; }
