@@ -8,8 +8,8 @@ body {
     padding: 51px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 60px auto;
-    /* medium grey background */
-    background-color: rgb(252, 252, 252);
+    /* off-white background */
+    background-color: #F8F8F8;
 }
 
 /* When cursor hovers over a link that is not active, the font will be change colors. */
