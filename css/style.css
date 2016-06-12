@@ -48,6 +48,7 @@ a {
     color: rgb(2, 127, 206);
 }
 
+/* Links turn black when mouse hovers over them. */
 a:hover { color: black; }
 
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; font-family: 'Helvetica', 'Calibri' 'Sans-Serif'; }
