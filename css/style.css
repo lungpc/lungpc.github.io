@@ -35,9 +35,14 @@ footer {
     font-size: .8em; 
 }
 
-a { 
+nav a, footer a { 
     text-decoration: none; 
     color: slategray; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 240, 243);
 }
 
 a:hover { color: black; }
