@@ -35,14 +35,16 @@ footer {
     font-size: .8em; 
 }
 
+/* Styling of the anchors in nav bar and footer */
 nav a, footer a { 
     text-decoration: none; 
     color: slategray; 
 }
 
+/* All anchors not in the nav bar or footer */
 a {
     text-decoration: none;
-    color: rgb(0, 240, 243);
+    color: rgb(100, 255, 255);
 }
 
 a:hover { color: black; }
