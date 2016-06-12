@@ -44,7 +44,7 @@ nav a, footer a {
 /* All anchors not in the nav bar or footer */
 a {
     text-decoration: none;
-    color: rgb(100, 255, 255);
+    color: rgb(0, 190, 255);
 }
 
 a:hover { color: black; }
