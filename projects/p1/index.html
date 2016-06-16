@@ -8,13 +8,12 @@ name: Project 1
 employs 3 different strategies on a self-implemented linked list structure: 
 a binary search, move-to-front (MTF), and transpose operation.</p>
 
-<p>The program requires a .txt input file to run its algorithm. These files are formatted so that 
-they contain an integer key with a String value. I’ve included several of these files for easy testing.
-A list, modeling a Dictionary ADT, is created from these key-value pairings.</p>
+<p>The program requires a .txt input file to run its algorithm. These files contain an integer key with a String value. Several 
+files are included (Geometric, Uniform, and Zipf) for ease of use. A list, modeling a Dictionary ADT, is created from 
+each unique key-value pair.</p>
 
-<p>The sequence in which the key appear in the file are scanned, including duplicates, and a lookUp() 
-method is called to find where each key is in our list. The time it takes to do this operation is
-calculated and recorded.</p>
+<p>The file is scanned, including duplicate keys, and the sequence in which the keys appear is used to analyze the efficiency of 
+each respective search algorithm. The cost of each find operation is calculated and recorded.</p>
 
 <p>In the MTF and transpose strategies, the linked list is traversed linearly until a match is found.
 If one is found,and depending on the respective strategy, that node is either moved to the front of 
