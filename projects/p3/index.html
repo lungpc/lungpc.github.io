@@ -4,3 +4,22 @@ name: Project 3
 ---
 
 <h2>project 3</h2>
+
+<p>In this program, I am using Kruskal’s algorithm to create a minimum spanning tree using a 
+heap and Up-tree structure. Both of which are implemented using arrays. An adjacency list for
+all the vertices is also created to represent the entire connected graph.</p>
+
+<p>Kruskal’s is used in graph theory on weighted, connected and unconnected, graphs as a means
+of finding a subset of the edges that form a tree, that includes every vertex, where the total 
+weight of all the edges in the tree is minimized.</p>
+
+<p>The heap, in this case a “min heap”, holds an array of edges, and represents all the vertices 
+of the graph. The Up-tree is used to create sets of edges, find disjoint sets, and join disjoint
+sets together.</p>
+
+<p>Using the heap, we can always find which the next smallest edge in the forest is. Then, with the
+Up-tree, it can be determined whether that edge is a part of the minimum spanning tree, and if not,
+then they will be joined together. It repeats until there are no disjoint sets left, and all the 
+vertices are a part of the graph.</p>
+
+<p>The program will then output a .txt file of the adjacency list which is a single, fully connected, tree. </p>
