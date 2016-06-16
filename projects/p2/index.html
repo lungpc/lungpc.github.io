@@ -4,4 +4,18 @@ name: Project 2
 ---
 
 <h2>project 2</h2>
-<p>oapfjope</p>
+<p>This program outputs a binary search tree consisting of nodes that have an integer key and a String value. 
+It is implemented via a linked list structure that models a Dictionary ADT. It also requires 2 different input 
+.txt files and will output 2 .txt files. The first input file is used to create a binary search tree. 
+The 2 included files (smallInput.txt and largeInput.txt) have key sequences that are divided by a -1. These are
+sentinel values, which organize how the tree is created in the performOperations() method. </p>
+
+<p>The most critical part of this program is its buildTree(int, int) method. It recursively creates a binary search
+tree from the nodes that were created from the input file. Once the tree is built, then it can be manipulated as
+the rest of the program calls for (insert and remove operations).</p>
+
+<p>The second input file contains key sequences order in statistical distributions, much like in the first project. 
+There are 3 included files, each with a different distribution (geometric, Zipf, and uniform).</p>
+
+<p>The last part of the program scans the sequence of keys in the second input file, searches for each key, and 
+records how much effort it took to find each key.</p>
