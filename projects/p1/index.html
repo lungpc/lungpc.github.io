@@ -1,0 +1,24 @@
+---
+layout: default
+name: Project 1
+---
+
+<h2>project 1</h2>
+<p>There are 3 different strategies employed on a self-implemented linked list structure: 
+a binary search, move-to-front (MTF), and transpose operation.</p>
+
+<p>The program requires a .txt input file to run its algorithm. These files are formatted so that 
+they contain an integer key with a String value. I’ve included several of these files for easy testing.
+A KeyValue node is created for each unique key-value pairing in the .txt file and placed in a linked list.</p>
+
+<p>The sequence in which the key-values appear in the file are scanned, including duplicates, and a lookUp() 
+method is called to find where each key is in our list. The time it takes to find each key is recorded and modeled.</p>
+
+<p>In the MTF and transpose strategies, the linked list is traversed linearly until a match is found.
+If one is found,and depending on the respective strategy, that node is either moved to the front of 
+the list or moved up one spot on the list.</p>
+
+<p>The binary search operation is the only one that does not traverse the list in a linear fashion. It employs a
+binary search algorithm where it looks at the middle (n/2) node, where n is the size of the list, and eliminates 
+half of the list until it has narrowed down the possible matches to just one. The nodes are not manipulated in this strategy,
+just looked at.</p> 
