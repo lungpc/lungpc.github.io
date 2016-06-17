@@ -18,9 +18,10 @@ weight of all the edges in the tree is minimized.</p>
 of the graph. The Up-tree is used to create sets of edges, find disjoint sets, and join disjoint
 sets together.</p>
 
-<p>Using the heap, we can always find which the next smallest edge in the forest is. Then, with the
-Up-tree, it can be determined whether that edge is a part of the minimum spanning tree, and if not,
-then they will be joined together. It repeats until there are no disjoint sets left, and all the 
-vertices are a part of the graph.</p>
+<p>Using the heap, we can always find which the next smallest edge in the forest is. Then, in conjunction with the
+Up-tree, it determines whether that edge is a part of the minimum spanning tree. If not,
+then the two disjoint sets will be joined together. It repeats until there are no disjoint sets left, and all the 
+vertices are a part of a single tree.</p>
 
-<p>The program will then output a .txt file of the adjacency list which is a single, fully connected, tree. </p>
+<p>The program will then output a .txt file of the adjacency list which is the fully connected graph, represented by
+a minimum spanning tree. </p>
