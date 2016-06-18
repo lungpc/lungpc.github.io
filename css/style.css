@@ -44,8 +44,8 @@ nav a, footer a {
 /* All anchors not in the nav bar or footer */
 a {
     text-decoration: none;
-    /* light gray-blue color */
-    color: rgb(2, 127, 206);
+    /* light orange color */
+    color: #ff9933;
 }
 
 /* Links turn black when mouse hovers over them. */
