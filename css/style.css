@@ -19,7 +19,7 @@ nav a:hover:not(.active) {
 
 nav ul, footer ul { 
     font-size: 1em; 
-    font-family: 'Playfair Display', 'Arial', serif; 
+    font-family: 'Raleway', 'Arial', serif; 
     padding: 0px; 
     list-style: none; 
     font-weight: bold; 
@@ -53,7 +53,7 @@ a:hover { color: black; }
 
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #404040; font-family: 'Raleway', 'Calibri', sans-serif; }
 
-h1, h2, h3, h4 { font-family: 'Raleway', 'Arial', sans-serif; }
+h1, h2, h3, h4 { font-family: 'Playfair Display', 'Arial', sans-serif; }
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
