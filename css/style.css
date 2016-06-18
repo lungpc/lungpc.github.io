@@ -19,7 +19,7 @@ nav a:hover:not(.active) {
 
 nav ul, footer ul { 
     font-size: 1em; 
-    font-family: 'Raleway', 'Arial', serif; 
+    font-family: 'Roboto', 'Arial', serif; 
     padding: 0px; 
     list-style: none; 
     font-weight: bold; 
